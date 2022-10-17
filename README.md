@@ -1,15 +1,21 @@
-Notebooks and presentations about cartography, geomatics, R and javascript stuffs.
+## Notebooks and presentations about cartography, geomatics, R and javascript stuffs.
 
-### Notebooks
+### 1. <ins>Notebooks</ins>
 
-- #### Various ways to pass variables from R to Observable
+#### bertin.js within Quarto (oct. 2022)
 
-- #### bertin.js within Quarto (oct. 2022)
+In this notebook, we show how to it is possible to use the javascript library [`bertin`](https://github.com/neocarto/bertin) within [`quarto`](https://quarto.org/) and how to make r cells and ojs cells communicate. https://neocarto.github.io/docs/notebooks/bertinquarto/
 
-In notebook, we show how to it is possible to use the javascript library [`bertin`](https://github.com/neocarto/bertin) within [`quarto`](https://quarto.org/) and how to make r cells and ojs cells communicate.
 
-- #### Combining R & Observable with Quarto
+#### Various ways to pass variables from R to Observable
 
-### Slides
+https://neocarto.github.io/docs/notebooks/ojsdefine/
+
+
+#### Combining R & Observable javascript with Quarto
+
+https://neocarto.github.io/docs/notebooks/rojs/
+
+### 2. <ins>Slides</ins>
 
 ...
