@@ -1,4 +1,6 @@
-# Notebooks
+Notebooks and presentations about cartography, geomatics, R and javascript stuffs.
+
+## Notebooks
 
 - #### Various ways to pass variables from R to Observable
 
@@ -8,6 +10,6 @@ In notebook, we show how to it is possible to use the javascript library [`berti
 
 - #### Combining R & Observable with Quarto
 
-# Slides
+## Slides
 
 ...
