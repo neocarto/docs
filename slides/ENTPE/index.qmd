@@ -1,0 +1,137 @@
+---
+title: "Cartographie<br/>et esprit critique"
+subtitle: "ENTPE (Lyon)"
+author: "Nicolas Lambert"
+date: 02/02/23
+title-slide-attributes:
+  data-background-color: black
+  data-background-image: img/cover.png
+  data-background-size: cover
+  data-background-opacity: "0.5"
+date-format: "DD MMM YYYY"
+engine: knitr
+format:
+  revealjs:
+    theme: [simple, custom.scss]
+    incremental: false
+    presentation-slide-text-align: center
+    background-transition: fade
+    controls: true
+    center: true
+    auto-stretch: true
+    scrollable: true
+
+---
+## Petite histoire de la cartographie
+<br/><br/><br>Historique et définitions
+
+
+## {background-color="white" background-image="img/I.01.histoire.png" background-size="contain" .hide}
+
+::: footer
+xxx
+:::
+
+## Mettre le monde à plat
+<br/><br/><br>Les projections cartographiques
+
+
+## Ou est le centre du monde ?
+<br/><br/><br>Nombrilisme cartographique
+
+## Perdre le nord
+<br/><br/><br>Un monde sans dessous dessous
+
+
+## {background-image="img/I.10.aucentre.png" background-size="contain"}
+
+::: footer
+Animating content
+:::
+
+
+
+partir de la carte ou est le centre de mad maps
+Puis expliquer différentes représentations
+
+## 4. Le maillage
+
+## 5. La couleur
+
+## 6. La taille
+
+##
+
+<iframe class="stretch" data-src="https://observablehq.com/embed/@neocartocnrs/how-to-lie-with-maps?cells=viewof+k%2Cmap"></iframe>
+
+
+## Test
+
+<img src = "./index_files/img/carte-territoire.png" style="border:none"></img>
+
+## Slide Title
+
+<img class="r-stretch" src = "="./index_files/img/carte-territoire.png" style="border:none"></img><p style = "font-size:20px">Observable est une startup fondée par <b>Mike Bostock</b> et <b>Melody Meckfessel</b>. L'équipe compte actuellement environ 40 personnes à plein temps.</p>
+
+::: {.notes}
+Speaker notes go here.
+:::
+
+## Slide Title
+
+Slide content
+
+::: aside
+Some additional commentary of more peripheral interest.
+:::
+
+::: footer 
+Custom footer text
+:::
+
+## Getting up
+
+- Green ^[A footnote]
+- Brown
+- Purple
+
+::: aside
+Some additional commentary of more peripheral interest.
+:::
+
+
+
+
+## Code Ojs
+
+```{ojs}
+
+bertin = require("bertin@1.4")
+countries = d3.json(
+  "https://gisco-services.ec.europa.eu/distribution/v2/countries/geojson/CNTR_RG_60M_2020_4326.geojson"
+)
+bertin.quickdraw(countries)
+```
+
+## {background-color="black" background-image="./index_files/img/carte-territoire.png" background-size="contain"}
+
+test
+
+## {background-color="white"}
+
+<p align="center"><iframe width=610 height=720 frameborder="0" scrolling="no"  style="overflow:hidden"
+  src="https://observablehq.com/embed/@neocartocnrs/how-to-lie-with-maps?cells=viewof+k%2Cmap"></iframe></p>
+
+
+## {background-color="white"}
+
+
+```{ojs}
+//width = 500
+viewof k = Inputs.range([-100, 100], {
+  step: 10,
+  value: 0
+})
+import { map } with { k as k } from "@neocartocnrs/how-to-lie-with-maps"
+map
+```
