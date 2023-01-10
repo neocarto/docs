@@ -21,28 +21,47 @@ $modal-footer-bg: red;
 /*-- scss:rules --*/
 
 
-.reveal h2 {
-    text-align:center;
+.reveal .part {
+background-color: black;
+
+}
+
+/*.reveal h2 {
+   // text-align:center;
     float: left;
-    padding:15px;
+    padding: 25px;
     //background-color: #4390ba;
     border: solid;
     opacity: 0.9;
     color:black;
     font-size:1.7em;
 
-}
+}*/
 
 .reveal .footer {
-background-color: white;
-padding:5px;
-    opacity: 0.7;
+background-color: black;
+color: white;
+padding:0px;
+opacity: 1;
 }
 
-
+.reveal .header {
+  text-align: center;
+background-color: white;
+color: black;
+padding:0px;
+opacity: 1;
+}
 
 .reveal .hide h2 {
+    padding: 0px;
     opacity: 0;
+}
+
+.observablehq {
+  font-size:12px;
+  text-align:center;
+  width: 67%;
 }
 
 

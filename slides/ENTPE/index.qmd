@@ -1,6 +1,6 @@
 ---
-title: "Cartographie<br/>et esprit critique"
-subtitle: "ENTPE (Lyon)"
+title: "Comment choisir une représentation cartographique?"
+subtitle: "Déméler les faits et la rhétorique<br/>(ENTPE)"
 author: "Nicolas Lambert"
 date: 02/02/23
 title-slide-attributes:
@@ -17,121 +17,632 @@ format:
     presentation-slide-text-align: center
     background-transition: fade
     controls: true
-    center: true
     auto-stretch: true
-    scrollable: true
-
+ 
 ---
-## Petite histoire de la cartographie
-<br/><br/><br>Historique et définitions
+
+##  {.hide background-color="white"}
+<br/><img src="img/riate.png" style="border:none"/></img>
+
+##  {.hide background-color="white"}
+<img src="img/livres.png" style="border:none"/></img>
+
+##  {.hide background-color="white"}
+<img src="img/dataviz.png" style="border:none"/></img>
+
+##  {.hide background-color="white"}
+
+<br/><img src="img/contact.png" style="border:none"/></img>
 
 
-## {background-color="white" background-image="img/I.01.histoire.png" background-size="contain" .hide}
+# Petite histoire de la cartographie {.part}
 
-::: footer
-xxx
-:::
-
-## Mettre le monde à plat
-<br/><br/><br>Les projections cartographiques
-
-
-## Ou est le centre du monde ?
-<br/><br/><br>Nombrilisme cartographique
-
-## Perdre le nord
-<br/><br/><br>Un monde sans dessous dessous
-
-
-## {background-image="img/I.10.aucentre.png" background-size="contain"}
+##  {.hide background-color="white" background-image="img/Bedolina.jpg" background-size="contain"}
 
 ::: footer
-Animating content
+"Cadastre" de Bedolina (découverte en en Italie du nord) 2000 av.nè. Quatre périodes au moins de gravure se superposent, et cette mystérieuse topographie apparaît sur la deuxième couche, voisinant avec des représentations de cervidés. S'il s'agit bien d'un premier vocabulaire topographique, nous ne savons pas le lire.
+:::
+
+##  {.hide background-color="white" background-image="img/mattangs.jpg" background-size="contain"}
+
+::: footer
+Cartes polynésiennes appelées Rebbelibs, Medosou ou Mattangs (1000 av.nè)
+:::
+
+##  {.hide background-color="white" background-image="img/sargon.png" background-size="contain"}
+
+::: footer
+Carte babylonnienne du Monde découverte à Sippar,au sud de l'Irak. 600 av.n
+:::
+
+
+##  {.hide background-color="white" background-image="img/ptolemee.png" background-size="contain"}
+
+::: footer
+La Géographie de Ptolémée (vers 200)
+:::
+
+##  {.hide background-color="white" background-image="img/TO.jpg" background-size="contain"}
+
+::: footer
+Au moyen-âge, les cartes T dans l'O
+:::
+
+##  {.hide background-color="white" background-image="img/idrisi.png" background-size="contain"}
+
+::: footer
+La géographie arabe (Al Idrisi, 1154)
+:::
+
+##  {.hide background-color="white" background-image="img/kangnido.png" background-size="contain"}
+
+::: footer
+la carte Kangnido (Corée, 1402)
+:::
+
+
+##  {.hide background-color="white" background-image="img/waldesmuller.jpg" background-size="contain"}
+
+::: footer
+les grandes découvertes (Waldseemüller, en 1507)
+:::
+
+##  {.hide background-color="white" background-image="img/osm.png" background-size="contain"}
+
+::: footer
+OpenStreetMap (Aujourd'hui)
+:::
+
+##  {.hide background-color="white" background-image="img/Playfair1.png" background-size="contain"}
+
+::: footer
+Commercial and Political Atlas. William Playfair (1786)
+:::
+
+##  {.hide background-color="white" background-image="img/Playfair2.png" background-size="contain"}
+
+::: footer
+Commercial and Political Atlas. William Playfair (1786)
+:::
+
+##  {.hide background-color="white" background-image="img/Playfair3.png" background-size="contain"}
+
+::: footer
+Commercial and Political Atlas. William Playfair (1786)
+:::
+
+##  {.hide background-color="white" background-image="img/Nightingale.png" background-size="contain"}
+
+::: footer
+Notes on Matters Affecting the Health, Efficiency and Hospital Administration of the British Army. Florence Nightingale (1857)
+:::
+
+##  {.hide background-color="white" background-image="img/Dupin.png" background-size="contain"}
+
+::: footer
+La première carte thématique de l'histoire (Charles Dupin, 1826)
+:::
+
+##  {.hide background-color="white" background-image="img/Montizon.png" background-size="contain"}
+
+::: footer
+La carte par points d'A. Frère de Montizon (1830)
+:::
+
+##  {.hide background-color="white" background-image="img/Cheysson.png" background-size="contain"}
+
+::: footer
+La mushroom map d'Emile Cheysson (1886)
+:::
+
+##  {.hide background-color="white" background-image="img/Minardbandes.jpg" background-size="contain"}
+
+::: footer
+Charles Joseph Minard (1862)
+:::
+
+##  {.hide background-color="white" background-image="img/Minard.png" background-size="contain"}
+
+::: footer
+Carte Figurative des pertes successives en hommes de l'armée française dans la campagne de Russie 1812--1813.<br/>Charles Joseph Minard (1869). Le <b>GOLD STANDARD</b> de la dataviz. Minard représente en 1869 les pertes colossales de l'armée française dans la campagne de Russie au début du XIXe siècle. Cette fameuse « carte figurative » raconte l'histoire de cette armée, qui arrive à Moscou avec moins d'un quart de son effectif de départ, avant de se faire à nouveau décimer sur le voyage du retour. 
+:::
+
+##  {.hide background-color="white" background-image="img/Semio.jpg" background-size="contain"}
+
+::: footer
+Bertin Jacques, Sémiologie graphique, Paris, Mouton/Gauthier-Villars, 1967
+:::
+
+
+## {.hide}
+
+<img src="img/VV_et_categories.png" style="border:none"/></img>
+
+::: footer
+Les variables visuelles
+:::
+
+## {.hide}
+
+<img src="img/catégories-de-VV.png" style="border:none"/></img>
+
+::: footer
+Les variables visuelles
+:::
+
+## {.hide}
+
+<img src="img/quali.jpeg" style="border:none"/></img>
+
+::: footer
+Différenciation
+:::
+
+## {.hide}
+
+<img src="img/choro.png" style="border:none"/></img>
+
+::: footer
+Ordre
+:::
+
+
+## {.hide}
+
+<img src="img/size.png" style="border:none"/></img>
+
+::: footer
+Proportionnalité
+:::
+
+
+## {.hide}
+
+:::: {.columns}
+
+::: {.column width="49%"}
+<img src="img/fail.png" style="border:none"/></img>
+:::
+
+::: {.column width="49%"}
+<img src="img/success.png" style="border:none"/></img>
+:::
+
+::::
+
+::: footer
+Pas de stock en aplats
+:::
+
+#  Entre technique et rhétorique {.part}
+Ce qui se cache derrière les cartes
+
+##  {.hide background-color="black" background-image="img/IV.06.platiste.png" background-size="contain"}
+
+
+::: footer
+Depuis l'Antiquité, sait que la Terre n'est pas plate
+:::
+
+##  {.hide background-color="black" background-image="img/1-bluemarble_west.jpg" background-size="contain"}
+
+::: footer
+La Bille bleue (en anglais : « The Blue Marble ») est une photographie célèbre de la Terre prise le 7 décembre 1972 par l'équipage d'Apollo 17 lors de son voyage vers la Lune, à une distance d'environ 45 000 km.
+:::
+
+##  {.hide background-color="#5D5D5D" background-image="img/orange.png" background-size="contain"}
+
+::: footer
+"La Terre est bleue comme une Orange" (Paul Eluard)
+:::
+
+##  {.hide background-color="#5D5D5D" background-image="img/orange2.png" background-size="contain"}
+
+::: footer
+"La Terre est bleue comme une Orange" (Paul Eluard)
+:::
+
+##  {.hide background-color="black" background-image="img/I.02.geoide.png" background-size="contain"}
+
+::: footer
+Le géoîde corresond à la surface d'altitude zéro
+:::
+
+##  {.hide background-color="white" background-image="img/geoide.png" background-size="contain"}
+
+::: footer
+Le géoîde correspond à la surface d'altitude zéro
+:::
+
+##  {.hide background-color="white"}
+
+![](img/ellipse.png)
+
+::: footer
+L'ellipsoide est une approximation mathématique de la forme de la Terre.
+:::
+
+##  {.hide background-color="white"}
+
+![](img/latlon.png)
+
+::: footer
+C'est à partir de l'ellipsoide qu'on détermine les latitudes et longitudes
+:::
+
+##  {.hide background-color="white" background-image="img/aspects_all.jpg" background-size="contain"}
+
+
+::: footer
+Mettre à plat
+:::
+
+##  {.hide background-color="white" background-image="img/lambert93.png" background-size="contain"}
+
+::: footer
+Un choix technique pour minimiser les déformations
+:::
+
+##  {.hide background-color="white" background-image="img/merc.jpg" background-size="contain"}
+
+::: footer
+La projection de Mercator (projection conforme)
+:::
+
+##  {.hide background-color="white" background-image="img/merc1.png" background-size="contain"}
+
+::: footer
+La projection de Mercator
+:::
+
+##  {.hide background-color="white" background-image="img/merc2.png" background-size="contain"}
+
+::: footer
+La projection de Mercator
+:::
+
+##  {.hide background-color="white" background-image="img/merc3.png" background-size="contain"}
+
+::: footer
+La projection de Mercator
+:::
+
+##  {.hide background-color="white" background-image="img/taillepays.png" background-size="contain"}
+
+::: footer
+La projection de Mercator
+:::
+
+##  {.hide background-color="white" background-image="img/Mercator1784.jpg" background-size="contain"}
+
+::: footer
+La projection de Mercator
+:::
+
+##  {.hide background-color="white" background-image="img/I.07.peters.png" background-size="contain"}
+
+##  {.hide background-color="white" background-image="img/westwing1.png" background-size="contain"}
+
+##  {.hide background-color="white" background-image="img/reclusc.png" background-size="contain"}
+
+##  {.hide background-color="white" background-image="img/reclusc2.png" background-size="contain"}
+
+##  {.hide background-color="white" background-image="img/173.jpg" background-size="contain"}
+
+::: footer
+La question de la projection pose aussi la question du centre
+:::
+
+##  {.hide background-color="white" background-image="img/USA.jpg" background-size="contain"}
+::: footer
+Le monde vu par les USA
+:::
+
+
+##  {.hide background-color="white" background-image="img/asia.jpg" background-size="contain"}
+::: footer
+Le monde vu d'Asie
+:::
+
+##  {.hide background-color="white" background-image="img/projautralie.png" background-size="contain"}
+::: footer
+Le monde vu d'Australie
+:::
+
+##  {.hide background-color="white" background-image="img/chn.png" background-size="contain"}
+::: footer
+Le monde vu de Chine
+:::
+
+##  {.hide background-color="white" background-image="img/polar.jpg" background-size="contain"}
+::: footer
+Personne au centre
+:::
+
+##  {.hide background-color="white" background-image="img/logo-onu-970x823.png" background-size="contain"}
+::: footer
+Personne au centre
+:::
+
+##  {.hide background-color="white" background-image="img/I.04.spilhauss.png" background-size="contain"}
+::: footer
+Changer de perspective
+:::
+
+##  {.hide background-color="white" background-image="img/Australie.png" background-size="contain"}
+::: footer
+Upside Down
+:::
+
+##  {.hide background-color="white" background-image="img/MSF-copyleft3.jpg" background-size="cover"}
+::: footer
+Changer de perspective
+:::
+
+##  {.hide background-color="white" background-image="img/ApocalypseStSeverFolios45v46rWorldMap.jpg" background-size="contain"}
+
+##  {.hide background-color="white" background-image="img/idrisi.png" background-size="contain"}
+
+##  {.hide background-color="white" background-image="img/westwing2.png" background-size="contain"}
+
+##  {.hide background-color="white" background-image="img/maillage.jpg" background-size="contain"}
+
+::: footer
+Les cartes s'appuient bien souvent sur un maillage administratif
+:::
+
+##  {.hide }
+::: header
+Soit, une réalité géographique fictive.
+<br/><br/><img src="img/maillage1.png" style="border:none"/></img>
+<br/><img src="img/maillage2.png" style="border:none; width:400px"/></img>
+:::
+
+##  {.hide }
+::: header
+Mettons ces habitants dans différents maillages fictifs
+<br/><br/><img src="img/maillage3.png" style="border:none"/></img>
+:::
+
+##  {.hide }
+::: header
+Les cartes produites sont différentes
+<br/><br/><img src="img/maillage3.png" style="border:none"/></img>
+<br/><img src="img/maillage4.png" style="border:none"/></img>
+<br/><img src="img/maillage5.png" style="border:none; width:400px"/></img>
+:::
+
+##  {.hide }
+::: header
+Les cartes produites sont différentes
+<br/><br/><img src="img/maillage3.png" style="border:none"/></img>
+<br/><img src="img/maillage4.png" style="border:none"/></img>
+<br/><img src="img/maillage6.png" style="border:none"/></img>
+:::
+
+##  {.hide }
+::: header
+<br/><img src="img/maillage8.png" style="border:none"/></img>
+:::
+
+##  {.hide }
+::: header
+MAUP : en géographie, les statistiques et les représentations sont dépendantes de l'échelle d'analyse.
+<br/><img src="img/2020-lying-states-vs-counties.png" style="border:none"/></img>
+:::
+
+##  {.hide background-color="white" background-image="img/trump1.png" background-size="contain"}
+
+::: footer
+Le maillage peut faire "mentir" les cartes
+:::
+
+##  {.hide background-color="white" background-image="img/trump4.png" background-size="contain"}
+
+::: footer
+Le maillage peut faire "mentir" les cartes
 :::
 
 
 
-partir de la carte ou est le centre de mad maps
-Puis expliquer différentes représentations
 
-## 4. Le maillage
-
-## 5. La couleur
-
-## 6. La taille
-
-##
-
-<iframe class="stretch" data-src="https://observablehq.com/embed/@neocartocnrs/how-to-lie-with-maps?cells=viewof+k%2Cmap"></iframe>
-
-
-## Test
-
-<img src = "./index_files/img/carte-territoire.png" style="border:none"></img>
-
-## Slide Title
-
-<img class="r-stretch" src = "="./index_files/img/carte-territoire.png" style="border:none"></img><p style = "font-size:20px">Observable est une startup fondée par <b>Mike Bostock</b> et <b>Melody Meckfessel</b>. L'équipe compte actuellement environ 40 personnes à plein temps.</p>
-
-::: {.notes}
-Speaker notes go here.
-:::
-
-## Slide Title
-
-Slide content
-
-::: aside
-Some additional commentary of more peripheral interest.
-:::
-
-::: footer 
-Custom footer text
-:::
-
-## Getting up
-
-- Green ^[A footnote]
-- Brown
-- Purple
-
-::: aside
-Some additional commentary of more peripheral interest.
+##  {.hide background-color="white" background-image="img/worldphysical.png" background-size="contain"}
+::: footer
+Les couleurs
 :::
 
 
+##  {.hide background-color="white" background-image="img/colors.jpg" background-size="cover"}
+::: footer
+Les couleurs
+:::
 
 
-## Code Ojs
+##  {.hide background-color="white" background-image="img/13S3XQ.jpg" background-size="contain"}
+::: footer
+le bleu : Couleur du ciel, universelle, consensus, sagesse, couleur discrète.
+:::
 
-```{ojs}
-
-bertin = require("bertin@1.4")
-countries = d3.json(
-  "https://gisco-services.ec.europa.eu/distribution/v2/countries/geojson/CNTR_RG_60M_2020_4326.geojson"
-)
-bertin.quickdraw(countries)
-```
-
-## {background-color="black" background-image="./index_files/img/carte-territoire.png" background-size="contain"}
-
-test
-
-## {background-color="white"}
-
-<p align="center"><iframe width=610 height=720 frameborder="0" scrolling="no"  style="overflow:hidden"
-  src="https://observablehq.com/embed/@neocartocnrs/how-to-lie-with-maps?cells=viewof+k%2Cmap"></iframe></p>
+##  {.hide background-color="white" background-image="img/ecolo.png" background-size="contain"}
+::: footer
+Le vert. Fertilité (en Europe), Islam (pour les musulmans), deuil (Asie), nature, couleur nationale irlandaise.
+:::
 
 
-## {background-color="white"}
+##  {.hide background-color="white" background-image="img/1950-Cold-War-map.jpg" background-size="contain"}
+::: footer
+Le rouge c’est le feu, le sang, l’amour mais c’est aussi l’enfer. Le rouge attire l’œil, c’est la couleur du danger (dans la nature, ce qui est rouge est souvent venimeux ou vénéneux). En politique, le rouge, c’est aussi évidemment le communisme. Sur nombre de cartes historiques, l’URSS est représenté en rouge. Couleur orgueilleuse, de pouvoir et d’ambitions, insolente, violente, crimes et péchés lui sont associés. Mais en Inde, elle évoque la pureté.
+:::
+
+##  {.hide background-color="white" background-image="img/III.10.warbusiness.png" background-size="contain"}
+::: footer
+Le rouge c’est le feu, le sang, l’amour mais c’est aussi l’enfer. Le rouge attire l’œil, c’est la couleur du danger (dans la nature, ce qui est rouge est souvent venimeux ou vénéneux). En politique, le rouge, c’est aussi évidemment le communisme. Sur nombre de cartes historiques, l’URSS est représenté en rouge. Couleur orgueilleuse, de pouvoir et d’ambitions, insolente, violente, crimes et péchés lui sont associés. Mais en Inde, elle évoque la pureté.
+:::
+
+##  {.hide background-color="white" background-image="img/black.jpg" background-size="contain"}
+::: footer
+Le noir. Fascisme, anarchisme, extremisme, terrorisme, deuil
+:::
+
+##  {.hide background-color="white" background-image="img/Dupin.png" background-size="contain"}
+::: footer
+Noir et blanc
+:::
+
+##  {.hide background-color="white" background-image="img/ezombie.jpeg" background-size="contain"}
 
 
-```{ojs}
-//width = 500
-viewof k = Inputs.range([-100, 100], {
-  step: 10,
-  value: 0
-})
-import { map } with { k as k } from "@neocartocnrs/how-to-lie-with-maps"
-map
-```
+##  {.hide background-color="white" background-image="img/taille1.png" background-size="contain"}
+
+::: footer
+Le choix de la bonne taille dépend de la lisibité mais aussi du message que l'on souhaite délivrer
+:::
+
+##  {.hide background-color="white" background-image="img/manif5dec_flop.png" background-size="contain"}
+
+##  {.hide background-color="white" background-image="img/manif5dec_top.png" background-size="contain"}
+
+##  {.hide background-color="white" background-size="contain" background-image="img/roms.png"}
+
+::: header
+Titre : ?
+:::
+
+
+##  {.hide background-color="white" background-size="contain" background-image="img/roms.png"}
+
+::: header
+Titre neutre :<br/>Les Roms en Europe
+:::
+
+##  {.hide background-color="white" background-size="contain" background-image="img/roms.png"}
+
+::: header
+Titre raciste :<br/>L'invasion Roms : le grand remplacement a commencé
+:::
+
+##  {.hide background-color="white" background-size="contain" background-image="img/roms.png"}
+
+::: header
+Titre original :<br/>Les Roms, peuple européen
+:::
+
+#   Méfiez-vous des cartes pas des migrants {.part}
+
+##  {.hide background-color="#5D5D5D" background-image="img/syriens/02.png" background-size="contain"}
+
+##  {.hide background-color="#5D5D5D" background-image="img/syriens/03.png" background-size="contain"}
+
+##  {.hide background-color="#5D5D5D" background-image="img/syriens/04.png" background-size="contain"}
+
+##  {.hide background-color="#5D5D5D" background-image="img/syriens/05.png" background-size="contain"}
+
+##  {.hide background-color="#5D5D5D" background-image="img/syriens/06.png" background-size="contain"}
+
+##  {.hide background-color="#5D5D5D" background-image="img/syriens/07.png" background-size="contain"}
+
+##  {.hide background-color="#5D5D5D" background-image="img/syriens/08.png" background-size="contain"}
+
+##  {.hide background-color="#5D5D5D" background-image="img/syriens/09.png" background-size="contain"}
+
+##  {.hide background-color="#5D5D5D" background-image="img/syriens/10.png" background-size="contain"}
+
+##  {.hide background-color="#5D5D5D" background-image="img/syriens/11.png" background-size="contain"}
+
+##  {.hide background-color="#5D5D5D" background-image="img/syriens/12.png" background-size="contain"}
+
+##  {.hide background-color="#5D5D5D" background-image="img/syriens/13.png" background-size="contain"}
+
+##  {.hide background-color="#5D5D5D" background-image="img/syriens/14.png" background-size="contain"}
+
+##  {.hide background-color="#5D5D5D" background-image="img/syriens/15.png" background-size="contain"}
+
+##  {.hide background-color="#5D5D5D" background-image="img/syriens/16.png" background-size="contain"}
+
+##  {.hide background-color="#5D5D5D" background-image="img/syriens/17.png" background-size="contain"}
+
+##  {.hide background-color="#5D5D5D" background-image="img/syriens/18.png" background-size="contain"}
+
+##  {.hide background-color="#5D5D5D" background-image="img/syriens/19.png" background-size="contain"}
+
+##  {.hide background-color="#5D5D5D" background-image="img/syriens/20.png" background-size="contain"}
+
+##  {.hide background-color="#5D5D5D" background-image="img/syriens/21.png" background-size="contain"}
+
+##  {.hide background-color="#5D5D5D" background-image="img/syriens/22.png" background-size="contain"}
+
+##  {.hide background-color="#5D5D5D" background-image="img/syriens/23.png" background-size="contain"}
+
+##  {.hide background-color="#5D5D5D" background-image="img/syriens/24.png" background-size="contain"}
+
+##  {.hide background-color="#5D5D5D" background-image="img/syriens/25.png" background-size="contain"}
+
+##  {.hide background-color="#5D5D5D" background-image="img/syriens/26.png" background-size="contain"}
+
+##  {.hide background-color="#5D5D5D" background-image="img/syriens/27.png" background-size="contain"}
+
+##  {.hide background-color="#5D5D5D" background-image="img/syriens/28.png" background-size="contain"}
+
+##  {.hide background-color="#5D5D5D" background-image="img/syriens/29.png" background-size="contain"}
+
+##  {.hide background-color="#5D5D5D" background-image="img/syriens/30.png" background-size="contain"}
+
+##  {.hide background-color="#5D5D5D" background-image="img/syriens/31.png" background-size="contain"}
+
+##  {.hide background-color="#5D5D5D" background-image="img/syriens/32.png" background-size="contain"}
+
+##  {.hide background-color="#5D5D5D" background-image="img/syriens/33.png" background-size="contain"}
+
+##  {.hide background-color="#5D5D5D" background-image="img/syriens/34.png" background-size="contain"}
+
+##  {.hide background-color="#5D5D5D" background-image="img/syriens/35.png" background-size="contain"}
+
+##  {.hide background-color="#5D5D5D" background-image="img/syriens/36.png" background-size="contain"}
+
+##  {.hide background-color="#5D5D5D" background-image="img/syriens/37.png" background-size="contain"}
+
+##  {.hide background-color="#5D5D5D" background-image="img/syriens/38.png" background-size="contain"}
+
+##  {.hide background-color="white" background-image="img/II.10.syriens.png" background-size="contain"}
+
+##  {.hide background-color="#5D5D5D" background-image="img/syriens/40.png" background-size="contain"}
+
+# Pour conclure {.part}
+
+##  {.hide background-color="white" background-image="img/semiobertin.jpg" background-size="contain"}
+::: header
+Pas de bonne carte sans bonne sémio
+:::
+
+
+##  {.hide background-color="#5D5D5D" background-image="img/carte-territoire.png" background-size="contain"}
+::: header
+Mais dans ce cadre, les choix graphiques sont infinis.
+:::
+
+##  {.hide background-color="white" background-image="img/frontex.png" background-size="contain"}
+::: header
+Le monde vu par Frontex
+:::
+
+##  {.hide background-color="white" background-image="img/roue.jpg" background-size="contain"}
+::: header
+Le monde vu par Philippe "Reka"
+:::
+
+
+##  {.hide background-color="white" background-image="img/espritcritique.jpg" background-size="contain"}
+
+::: header
+Faite jouer votre esprit critique pour déméler ce qui relève du rationnel et de la rhétorique.
+:::
+
+
+##  {.hide background-color="#5D5D5D" background-image="img/spiderman.jpg" background-size="contain"}
+
+# Merci {.part}
+
+
+##  {.hide background-color="white"}
+<br/><img src="img/contact.png" style="border:none"/></img>
+
