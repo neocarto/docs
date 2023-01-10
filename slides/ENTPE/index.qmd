@@ -646,3 +646,12 @@ Faite jouer votre esprit critique pour déméler ce qui relève du rationnel et 
 ##  {.hide background-color="white"}
 <br/><img src="img/contact.png" style="border:none"/></img>
 
+##  {.hide background-color="white"}
+
+::: header
+<br/><br/><br/><br/>Présentation disponible ici :<br/>
+<ins>https://neocarto.github.io/docs/slides/ENTPE/docs</ins>
+:::
+
+
+

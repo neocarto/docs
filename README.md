@@ -18,4 +18,4 @@ https://neocarto.github.io/docs/notebooks/rojs/
 
 ### 2. <ins>Slides</ins>
 
-...
+https://neocarto.github.io/docs/slides/ENTPE/docs
