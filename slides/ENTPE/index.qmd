@@ -18,7 +18,7 @@ format:
     background-transition: fade
     controls: true
     auto-stretch: true
- 
+
 ---
 
 ##  {.hide background-color="white"}
