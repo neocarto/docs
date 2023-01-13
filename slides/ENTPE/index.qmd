@@ -1,7 +1,8 @@
 ---
-title: "Comment choisir une représentation cartographique?"
-subtitle: "Déméler les faits et la rhétorique<br/>(ENTPE)"
+title: "Comment bien choisir une représentation cartographique?"
+subtitle: "Déméler les faits de la rhétorique<br/>(ENTPE)"
 author: "Nicolas Lambert"
+lang: fr
 date: 02/02/23
 title-slide-attributes:
   data-background-color: black
@@ -26,6 +27,12 @@ format:
 
 ##  {.hide background-color="white"}
 <img src="img/livres.png" style="border:none"/></img>
+
+##  {.hide background-color="white" background-image="img/IV.08.pieuvre.png" background-size="contain"}
+
+##  {.hide background-color="white" background-image="img/IV.02.bigbrother.png" background-size="contain"}
+
+##  {.hide background-color="white" background-image="img/III.12.butterouge.png" background-size="contain"}
 
 ##  {.hide background-color="white"}
 <img src="img/dataviz.png" style="border:none"/></img>
@@ -212,6 +219,13 @@ Proportionnalité
 
 ::: footer
 Pas de stock en aplats
+:::
+
+
+##  {.hide background-color="black" background-image="img/science.png" background-size="contain"}
+
+::: footer
+Une volonté de faire de la cartographie une science objective
 :::
 
 #  Entre technique et rhétorique {.part}
@@ -615,7 +629,7 @@ Pas de bonne carte sans bonne sémio
 :::
 
 
-##  {.hide background-color="#5D5D5D" background-image="img/carte-territoire.png" background-size="contain"}
+##  {.hide background-color="white" background-image="img/carte-territoire.png" background-size="contain"}
 ::: header
 Mais dans ce cadre, les choix graphiques sont infinis.
 :::
