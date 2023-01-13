@@ -466,6 +466,12 @@ Les couleurs
 :::
 
 
+##  {.hide background-color="#B5B0B6" background-image="img/EM-Spectre-VIS.png" background-size="contain"}
+
+::: footer
+Les couleurs
+:::
+
 ##  {.hide background-color="white" background-image="img/colors.jpg" background-size="cover"}
 ::: footer
 Les couleurs
