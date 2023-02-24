@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<meta charset="utf-8">
+<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/@observablehq/inspector@5/dist/inspector.css">
+<body>
+<script type="module">
+
+import {Runtime, Inspector} from "https://cdn.jsdelivr.net/npm/@observablehq/runtime@5/dist/runtime.js";
+import define from "https://api.observablehq.com/@observablehq/hello-world.js?v=4";
+
+const runtime = new Runtime();
+const main = runtime.module(define, name => {
+  if (name === "hello") {
+    const node = document.createElement("DIV");
+    document.body.appendChild(node);
+    return new Inspector(node);
+  }
+});
+
+</script>
