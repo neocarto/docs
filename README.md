@@ -22,6 +22,10 @@ Practical work done for the CITS International Summer School in Benin in march 2
 
 Practical work done for the CITS International Summer School in Benin in march 2023. https://ee-cist.github.io/CAR2_cartodyn/TP2/docs/index.html [**FR**] (2023)
 
+- #### Be suspicious of maps, not of migrants
+
+Practical case study in R on Syrian migrations in 2015. https://neocarto.github.io/syrians [**EN**] (2018)
+
 ### 2. <ins>Slides</ins>
 
 - #### Comment bien choisir une représentation cartographique ?
