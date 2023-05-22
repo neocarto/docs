@@ -26,6 +26,9 @@ format:
 <br/><img src="img/riate.png" style="border:none"/></img>
 
 ##  {.hide background-color="white"}
+<br/><img src="img/riate.png" style="border:none"/></img>
+
+##  {.hide background-color="white"}
 <img src="img/livres.png" style="border:none"/></img>
 
 ##  {.hide background-color="white" background-image="img/IV.08.pieuvre.png" background-size="contain"}
@@ -40,9 +43,6 @@ format:
 ##  {.hide background-color="white"}
 
 <br/><img src="img/contact.png" style="border:none"/></img>
-
-
-# Petite histoire de la cartographie {.part}
 
 ##  {.hide background-color="white" background-image="img/Bedolina.jpg" background-size="contain"}
 

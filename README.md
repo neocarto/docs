@@ -36,3 +36,8 @@ Conference held at the ENTPE in February 2023. https://neocarto.github.io/docs/s
 
 General course done for the CITS International Summer School in Benin in march 2023.
 https://ee-cist.github.io/CAR2_cartodyn/intro/docs/index.html [**FR**] (2023)
+
+- #### Cartographier pour le web avec la bibliothèque JavaScript `bertin`
+
+Presentation slides of the Bertin Library at the Sageo 2023 conference. 
+https://neocarto.github.io/bertin-sageo2023/#/title-slide [*FR*] (2023)
