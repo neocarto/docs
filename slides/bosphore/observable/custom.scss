@@ -1,0 +1,51 @@
+/*-- scss:defaults --*/
+
+$presentation-h1-font-size: 3em;
+$footer-bg: #75AADB;
+$modal-footer-bg: red;
+
+
+.title {
+  font-size: 120px !important;
+  color: white !important;
+}
+
+.author {
+  font-size: 100px;
+}
+
+.date {
+  font-size: 30px;
+}
+
+/*-- scss:rules --*/
+
+.observablehq {
+  font-size:20px;
+}
+
+
+
+
+.sourceCode {
+  font-size:20px;
+}
+
+.reveal .footer {
+background-color: white;
+padding:0px;
+opacity: 1;
+}
+
+.reveal .header {
+  text-align: center;
+background-color: white;
+color: black;
+padding:0px;
+opacity: 1;
+}
+
+
+
+
+
